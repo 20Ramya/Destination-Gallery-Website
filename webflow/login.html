@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <title>Login Form</title>
+</head>
+<body>
+    
+</body>
+<style>
+    body{
+        margin-left: 200px;
+        margin-right: 200px;
+        font-family: 'Arvo', serif;
+    }
+    .title{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .grid{
+        display:grid;
+        grid-template-columns: repeat(2,40%);
+        justify-content: center;
+        align-content:space-evenly;
+    }
+       .container{
+        display: grid;
+        color: rgb(239, 221, 221);
+        font-size: larger;
+        font-weight: lighter;
+        grid-template-rows:auto(5,auto);
+        background: #673AB7; 
+         padding-left: 50px;
+         padding-right: 50px;
+         padding-top: 30px;
+         padding-bottom: 30px;
+background: -webkit-linear-gradient(to top, #512DA8, #673AB7);  
+background: linear-gradient(to top, #512DA8, #673AB7); 
+;
+       }
+    .container2{
+        padding-left: 50px;
+         padding-right: 50px;
+         padding-top: 30px;
+         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+    }
+    Input{
+background: none;
+border: none;
+border-bottom: 1px solid gray;
+margin-bottom: 30px;
+padding-bottom: 10px;
+    }
+    .message{
+        padding-bottom: 120px;
+
+    }
+    .contact{
+        border-bottom:3px solid purple;
+        display: inline
+     
+    }
+    button{
+        width: 120px;
+        height: 40px;
+        background-color: rgb(183, 51, 183);
+        border: none;
+        border-radius:5px;
+        color: white;
+    } 
+</style>
+</html>
+<h2 class="title">CONTACT FORM #04</h2>
+<div class="grid">
+<div class="container"><H4>SEND US A MESSAGE</H4>
+<input type="text" class="form" placeholder="NAME"> 
+<input type="email" class="form" placeholder="EMAIL">
+<input type="text"  class="form" placeholder="SUBJECT">
+<input class="message" type="text" class="form" placeholder="MESSAGE" >
+<button>SEND MESSAGE</button>
+</div>
+<div class="container2">
+    <h2> <div class="contact">Con</div>tact us</h2>
+    <h5>we are open for any suggestions or just to have chat</h5>
+    <h5>Adress: 198 West 21st street suite 721 New York NY 10016</h5>
+    <h5>Phone no: +1235 2355 98</h5>
+    <h5>Email: info@yoursite.come</h5>
+    <h5>Website: yoursite.com</h5>
+</div>
+</div>
